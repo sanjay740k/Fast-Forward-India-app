@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/textViewname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="500dp"
+        android:background="#00BCD4"
+        android:fontFamily="cursive"
+        android:text="@string/fast_forward_india_name"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bloodlineId"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="400dp"
+        android:background="#673AB7"
+        android:onClick="bloodlineon"
+        android:text="@string/bloodline"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#E91E63"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/escapeJagritiId"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="300dp"
+        android:background="#673AB7"
+        android:onClick="escapejagrition"
+        android:text="@string/escape_jagrati"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.50" />
+
+    <Button
+        android:id="@+id/dishaId"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="200dp"
+        android:background="#673AB7"
+        android:onClick="dishaon"
+        android:text="@string/disha"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/umeedId"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="100dp"
+        android:background="#673AB7"
+        android:onClick="umeedon"
+        android:text="@string/umeed"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

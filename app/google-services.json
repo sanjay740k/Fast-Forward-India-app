@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "527535525529",
+    "firebase_url": "https://ffi2007.firebaseio.com",
+    "project_id": "ffi2007",
+    "storage_bucket": "ffi2007.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527535525529:android:232cc94439470a80b87208",
+        "android_client_info": {
+          "package_name": "com.example.ffi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527535525529-2rcmjbq0a0s84i4g3l5b03h7bop3mvru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEjyNnGFr_l1CqNQxG2aKgtnkIcfvCVLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527535525529-2rcmjbq0a0s84i4g3l5b03h7bop3mvru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
